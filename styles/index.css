@@ -1,0 +1,139 @@
+footer {
+    position: relative;
+    overflow: hidden;
+    display:  flex;
+    flex-direction: column;
+    margin: 60px 0 0 0;
+    background-color: #050222;
+    padding: 50px 50px 0px 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+footer .container_logo {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(255, 255, 255, 0.274);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.274);
+    padding: 25px 0;
+    width: 100%;
+}
+
+
+footer .logo {
+    position: relative;
+    margin: 0 0 0 10em;
+}
+
+footer .logo:hover {
+    -webkit-filter: opacity(90%);
+    filter: opacity(60%)
+}
+
+footer .logo img {
+    height: 100px;
+    width: auto
+}
+
+
+footer .menu {
+    margin-right: -18px;
+    text-align: justify;
+
+}
+
+
+footer .menu ul {
+    display: flex
+}
+
+
+footer .menu  {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0 2px
+}
+
+
+footer .menu ul li a {
+    color: #ffffff;
+    padding: 20px 15px;
+    white-space: nowrap;
+    border-radius: 10rem;
+    margin: 15px;
+}
+
+
+footer .menu ul li a:hover {
+    background: #ffffff;
+    color: #100b4b
+}
+
+footer .link {
+    text-align: center;
+    margin: 50px 0 0 0
+}
+
+
+footer .link .title {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0 0 10px 0
+}
+
+footer .link ul {
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center
+}
+
+footer .link ul li {
+    margin: 10px
+}
+
+footer .link ul li a:hover {
+    background: #ffffff;
+    color: #100b4b
+}
+
+footer .link ul a {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #dadada;
+    background: rgba(255, 255, 255, 0.158);
+    border: 2px solid rgba(255, 255, 255, 0.151);
+    border-radius: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 16px
+}
+
+
+footer .bottom {
+    width: 100%;
+    text-align: center;
+    font-size: 0.875rem;
+    color: rgba(255,255,255,0.4);
+    margin: 50px 0
+}
+
+
+footer .bottom a {
+    color: rgba(255,255,255,0.4)
+}
+
+footer .bottom a:hover {
+    color: rgba(219, 219, 219, 0.8)
+}
