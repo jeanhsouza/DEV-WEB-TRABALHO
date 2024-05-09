@@ -28,7 +28,7 @@ footer .container_logo {
 
 footer .logo {
 	position: relative;
-	margin: 0 0 0 10em;
+	margin: 1em 0 0 0;
 }
 
 footer .logo:hover {
@@ -61,7 +61,7 @@ footer .menu ul li a {
 	padding: 20px 15px;
 	white-space: nowrap;
 	border-radius: 10rem;
-	margin: 15px;
+	margin: 7px;
 }
 
 footer .menu ul li a:hover {
