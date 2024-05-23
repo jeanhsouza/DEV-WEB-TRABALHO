@@ -2,7 +2,9 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
+	box-sizing: border-box;
 }
+
 
 :root {
     --bg-color-primary: #050222;
@@ -30,7 +32,7 @@ button:hover{
 	opacity: 0.5;
 	background-color: black;
 	height: 100vh;
-	width: 100vw;
+	width: 100%;
 }
 
 .menu {
@@ -111,14 +113,82 @@ button:hover{
 	border-radius: 5px;
 }
 
+/*CARROSSEL*/
+.carrossel{
+	font-family: var(--font-family);
+	background-color: var(--bg-color-primary);
+	color: var(--color-text-primary);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.carrossel-header{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+.carrossel-header .carrossel-titulo{
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 1.5em;
+	margin-left: 25px;
+}
+
+.carrossel-controles{
+    margin-left: 2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.carrossel-controles span{
+    font-size: 2em;
+    letter-spacing: 1em;
+    font-weight: bolder;
+    transition: .3s ease;
+	color: var(--bg-color-primary);
+}
+
+.carrossel-controles button{
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+}
 
 
+.carrossel-body{
+    flex: 1;
+    height: 70%;
+}
+.carrossel-body .carrossel-container{
+    height: 80%;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1em;
+    overflow-x: auto;
+	overflow-y: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+.item-card{
+	min-width: 300px;
+    height: 700px;
+}
+
+.item-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*FOOTER*/
 footer {
 	position: relative;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
-	margin: 60px 0 0 0;
 	background-color: var(--bg-color-primary);
 	padding: 50px 50px 0px 50px;
 	font-family: var(--font-family);
