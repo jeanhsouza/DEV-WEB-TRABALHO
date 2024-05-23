@@ -190,7 +190,6 @@ footer {
 	display: flex;
 	flex-direction: column;
 	background-color: var(--bg-color-primary);
-	padding: 50px 50px 0px 50px;
 	font-family: var(--font-family);
 }
 
@@ -199,7 +198,7 @@ footer .container_logo {
 	justify-content: space-between;
 	border-top: 1px solid rgba(255, 255, 255, 0.274);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.274);
-	padding: 25px 0;
+	padding: 25px 0 25px 35px;
 	width: 100%;
 }
 
@@ -285,7 +284,7 @@ footer .link ul a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 7px 16px;
+	padding: 8px 18px;
 }
 
 footer .bottom {
@@ -302,4 +301,37 @@ footer .bottom a {
 
 footer .bottom a:hover {
 	color: rgba(219, 219, 219, 0.8);
+}
+
+.footer_form input{
+	width: 20rem;
+	height: 3rem;
+	border-radius: 5px;
+	border: 1px solid var(--bg-color-secundary);
+	padding: 0 10px;
+	background-color: var(--bg-color-primary-opacity);
+	color: var(--color-text-primary);
+	
+}
+
+.footer_form input::placeholder {
+	color: var(--color-text-primary);
+	opacity: 0.8;
+}
+
+.footer_form button{
+	color: var(--color-text-primary);
+	font-weight: 600;
+	background-color: red;
+	padding: 1rem 1.5rem;
+	border-radius: 5px;
+}
+
+.footer_form{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 3rem;
+	gap: 10px;
 }
