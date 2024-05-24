@@ -3,9 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Streaming Nosso</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png"/>
+    <title>StreamZone</title>
 </head>
 <body>
+    <header>
+        <div class="menu">
+            <img src="../assets/img/logo.png" alt="" class="logo">            
+            <div class="btn_menu">
+                <select>
+                    <option value="Portuguese">Português (Brasil)</option>
+                    <option value="English">English</option>
+                    <option value="Spanish">Espanõl</option>
+                </select>
+                <button>Entrar</button>
+            </div>
+        </div>
+        <div class="bg"></div>
+        <div class="header_main">
+            <h1>Filmes, séries e muito mais, sem limites</h1>
+            <p>Assista onde quiser. Cancele quando quiser</p>
+            <p>Tudo pronto para assistir? Informe seu e-mail ou número de celular para criar ou reiniciar sua assinatura.</p>
+            <form action="" class="header_form">
+                <input type="email" name="" id="" placeholder="E-mail ou número de celular">
+                <button type="submit">Vamos lá ></button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section class="section_1">
+            <div class="section_1_texto">
+                <h1>Aproveite na TV</h1>
+                <p>Assita em Smart TVs, PlayStation, Xbox, Chomecast, Apple TV, aparelhos de Blue-ray e outros dispositivos.</p>
+            </div>
+            <div class="section_1_img">
+                <img src="/assets/img/section_1.png" alt="">
+            </div>
+        </section>
+
+        <section class="section_2">
+            <div class="section_2_img">
+                <img src="/assets/img/section_2.png" alt="">
+            </div>
+            <div class="section_2_texto">
+                <h1>Assista onde quiser</h1>
+                <p> Assista a quantos filmes e séries quiser no celular, tablet, laptop e TV.</p>
+     
+            </div>
+
+        </section>
+
+
+        <section class="carrossel">
+            <article class="carrossel-header">
+                <h2 class="carrossel-titulo">Filmes e séries em destaque</h2>
+                <div class="carrossel-controles btn_menu">
+                    <button type="button" id="anterior"> <<< </button>
+                    <!-- <span>○</span> -->
+                    <button type="button" id="proximo"> >>> </button>
+                </div>
+            </article>
+            <article class="carrossel-body">
+                <div class="carrossel-container">
+                    <div class="item-card">
+                        <img src="../assets/img/a-menina-e-o-dragao.jpg" alt="">
+                    </div>
+                    <div class="item-card">
+                        <img src="../assets/img/como-treinar-o-seu-dragao-3.jpg" alt="">
+                    </div>
+                    <div class="item-card">
+                        <img src="../assets/img/como-treinar-o-seu-dragao.jpg" alt="">
+                    </div>
+                    <div class="item-card">
+                        <img src="../assets/img/gato-de-botas-2.webp" alt="">
+                    </div>
+                    <div class="item-card">
+                        <img src="../assets/img/o-grande-mauricinho.jpg" alt="">
+                    </div>
+                    <div class="item-card">
+                        <img src="../assets/img/shrek.jpg" alt="">
+                    </div>
+                    <div class="item-card">
+                        <img src="../assets/img/vida-de-inseto.jpg" alt="">
+                    </div>
+                    <div class="item-card">
+                        <img src="../assets/img/lucas.jpg" alt="">
+                    </div>
+                    <div class="item-card">
+                        <img src="../assets/img/mario.webp" alt="">
+                    </div>
+                    <div class="item-card">
+                        <img src="../assets/img/toy.jpg" alt="">
+                    </div>
+                    <div class="item-card">
+                        <img src="../assets/img/toy2.webp" alt="">
+                    </div>
+                    <div class="item-card">
+                        <img src="../assets/img/toy3.jpg" alt="">
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="container_logo">
+                <a class="logo">
+                    <img src="../assets/img/logo.png" alt=""> </a>
+                <nav class="menu">
+                    <ul><li class="menu"><a >Início</a> </li>
+                        <li class="menu"><a >Contato</a> </li>
+                        <li class="menu"><a >Filmes</a> </li>
+                        <li class="menu"><a >Series</a> </li>
+                        <li class="menu"><a >Dublado</a> </li>
+                        <li class="menu"><a >Legendado</a> </li>
+                    </ul>			
+                </nav>
+            </div>
+        </div>
+
+        <form action="" class="footer_form">
+            <input type="email" name="" id="" placeholder="E-mail ou número de celular">
+            <button type="submit">Vamos lá ></button>
+        </form>
     
+        <div class="link">
+            <div class="container">
+                <div class="title">
+                    Links Uteis
+                </div>
+                    <ul>
+                        <li class="menu"><a >Filmes</a> </li>
+                        <li class="menu"><a >Series</a> </li>
+                        <li class="menu"><a >Assistir Online</a> </li>
+                        <li class="menu"><a >Sitemap</a> </li>
+                        <li class="menu"><a >Animes Online</a> </li>
+                    </ul>
+                    <div class="bottom">
+                        <div class="container">
+                            Todos os direitos reservados | 2024 StreamZone </div>
+                    </div>
+                
+    </footer>
+
+    <script src="../scripts/index.js"></script>
 </body>
 </html>
